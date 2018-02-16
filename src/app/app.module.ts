@@ -11,7 +11,7 @@ export const ROUTES: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'categories' },
     {
         path: 'categories',
-        loadChildren: '../budget/budget.module#BudgetModule',
+        loadChildren: './budget/budget.module#BudgetModule',
     },
 ];
 

@@ -3,8 +3,8 @@ import {CategoryModel} from '../../models/category.model';
 
 
 @Component({
-    selector: 'app-products',
-    styleUrls: ['products.component.scss'],
+    selector: 'app-categories',
+    styleUrls: ['categories.component.scss'],
     templateUrl: 'categories.component.html',
 })
 export class CategoriesComponent implements OnInit {
