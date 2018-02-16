@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('check-money App', () => {
+describe('rdx App', () => {
   let page: AppPage;
 
   beforeEach(() => {
